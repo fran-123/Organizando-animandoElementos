@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body class="vender">
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/image/logo-mercado-liebre.svg" class="logo">
+            <div class="main-header-container-buscador">
+                <input type="text" class="buscador" name="buscador" value="buscador">
+                <a class="main-header-lupa"><i class="fas fa-search"></i></a>
+            </div>
+            <h2 class="compra-en-cuotas">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <a href="#" class="burger-botton"><i class="fas fa-bars"></i></a>
+        <nav class="main-header-bottom-bar">
+            <ul class="nav-left">
+                <li><a href="#">ofertas</a></li>
+                <li><a href="#">tiendas oficiales</a></li>
+                <li><a href="/vender">vender</a></li>
+                <li><a href="#">ayuda</a></li>
+            </ul>
+            <ul class="nav-rigth">
+                <li><a href="/register">crea tu cuenta</a><i class="far fa-address-card"></i></li>
+                <li><a href="/login">ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#">mis compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="formVender" action="">
+        <div class="box-form">
+            <label for="name">Nobre del Producto</label>
+            <input type="text" name="NameProduct" id="name">
+        </div>
+
+        <div class="box-form">
+            <label for="price">Precio Del Producto</label>
+            <input type="number" name="priceProduct" id="price">
+        </div>
+
+        <div class="box-form">
+            <label for="categoria">Categoria</label>
+            <select name="categoriaProduct" id="categoria">
+                <option value="" selected hidden>Selcione Una Categoria</option>
+                <option value="ho">hogar</option>
+                <option value="ju">juegos</option>
+                <option value="tec">tecnologia</option>
+            </select>
+        </div>
+
+        <div class="box-form">
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudadProduct" id="ciudad">
+                <option value="" selected hidden>Selcione Una Ciudad</option>
+                <option value="bs">Buenos Aires</option>
+                <option value="ca">Capital</option>
+                <option value="pa">Palermo</option>
+            </select>
+        </div>
+
+        <div class="box-form">
+            <textarea name="descripcopn" id="" cols="30" rows="10">
+
+            </textarea>
+        </div>
+    </form>
+
+    <article class="imageProduct">
+        <img src="/image/img-cafetera-moulinex.jpg" alt="">
+        <h2>cafetera moulinex</h2>
+    </article>
+</body>
+</html>
